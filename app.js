@@ -27,7 +27,7 @@ var aPostedURL = [];
 var aPostID = [];
 var oPoosted = {};
 
-fs.readFile('./posted.log', 'utf8', function(err, data) {
+fs.readFile('./posted.enjoy', 'utf8', function(err, data) {
   
     if (!err) {
         oPoosted = JSON.parse(data);
@@ -320,15 +320,31 @@ function test2(page){
 //     test2(i);
 // }
 
+function writeLog(){
+    var filedata = JSON.stringify(oPoosted);
+    fs.writeFile('./posted.enjoy', filedata, function(err) {
+        if(err) throw err;
+        console.log('Log File write completed');
+    });
+}
 
-setTimeout(function(){test2(1)},3*1000);
-setInterval(function(){test2(1)},30*1000);
+setTimeout(function(){
+    test2(1);
+    test2(2);
+},3*1000);
+
+//1,2페이지 10분만다 파싱
+setInterval(function(){test2(1);test2(2);},10*60*1000);
+
+//로그파일 1시간마다 저장
+setInterval(function(){writeLog();},60*60*1000);
+
 // test(20);
 // getVideo('http://tvko.us/tudou-%EC%8A%A4%ED%83%80%EB%89%B4%EC%8A%A4-140520/');
 
 app.use('/writeLog',function(req,res){
     var filedata = JSON.stringify(oPoosted);
-    fs.writeFile('./posted.log', filedata, function(err) {
+    fs.writeFile('./posted.enjoy', filedata, function(err) {
         if(err) throw err;
         console.log('Log File write completed');
     });
