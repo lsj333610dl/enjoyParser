@@ -36,7 +36,7 @@ fs.readFile('./posted.enjoy', 'utf8', function(err, data) {
 });
 
 
-var mysql = require('mysql');
+//var mysql = require('mysql');
 
 
 var app = express();
