@@ -9,8 +9,10 @@
 #     ^c 
 # done
 
-
-forever start ./bin/www
-forever list
-sleep 60*10
-forever restart 0
+while [ 1 ]
+do
+	forever start ./bin/www
+	forever list
+	sleep 900
+	forever stop 0
+done
