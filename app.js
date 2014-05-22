@@ -35,17 +35,9 @@ fs.readFile('./posted.enjoy', 'utf8', function(err, data) {
     };
 });
 
-// wp.newPost({
-//       title: 'Your title',
-//       status: 'publish', //'publish, draft...',
-//       content: '<strong>This is the content</strong>',
-//       author: 3, // author id
-//       terms: {'category': [category_id]}
-//     },
-//     function() { 
-//       console.log(arguments);
-//     }
-// });
+
+var mysql = require('mysql');
+
 
 var app = express();
 
@@ -329,15 +321,16 @@ function writeLog(){
 }
 
 setTimeout(function(){
-    test2(1);
     test2(2);
+    test2(1);
 },3*1000);
 
 //1,2페이지 10분만다 파싱
-setInterval(function(){test2(1);test2(2);},10*60*1000);
+// setInterval(function(){test2(1);test2(2);},10*60*1000);
 
-//로그파일 1시간마다 저장
-setInterval(function(){writeLog();},60*60*1000);
+
+//로그파일 5분 후 저장
+setInterval(function(){writeLog();},5*60*1000);
 
 // test(20);
 // getVideo('http://tvko.us/tudou-%EC%8A%A4%ED%83%80%EB%89%B4%EC%8A%A4-140520/');
