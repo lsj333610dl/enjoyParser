@@ -31,7 +31,7 @@ fs.readFile('./posted.enjoy', 'utf8', function(err, data) {
   
     if (!err) {
         oPoosted = JSON.parse(data);
-        console.log(oPoosted);
+        console.log("로그 로드완료.");
     };
 });
 
@@ -127,25 +127,26 @@ function getVideo(url){
 
     if (aPostedURL.indexOf(url)>(-1)) {
         console.log('중복');
+        
+        // request(url,function(error,response,body){
+        //     if (!error && response.statusCode ==200) {
 
-        request(url,function(error,response,body){
-            if (!error && response.statusCode ==200) {
+        //         var window = jsdom.jsdom(body).parentWindow;
 
-                var window = jsdom.jsdom(body).parentWindow;
+        //         jsdom.jQueryify(window, "http://code.jquery.com/jquery.js",function(){
+        //             var contentHtml = window.$('div.video').html();
+        //             var sTitle = window.$('.post-top').find('a:first').text();
 
-                jsdom.jQueryify(window, "http://code.jquery.com/jquery.js",function(){
-                    var contentHtml = window.$('div.video').html();
-                    var sTitle = window.$('.post-top').find('a:first').text();
+        //             // console.log(contentHtml);
+        //             console.log('url : ',aPostedURL[aPostedURL.indexOf(url)],'id : ',aPostID[aPostedURL.indexOf(url)]);
+        //             wp.editPost(aPostID[aPostedURL.indexOf(url)],{title:sTitle,status:'publish',content:contentHtml,author:1},function(){
+        //                 console.log(arguments);
+        //                 writeLog();
+        //             });
 
-                    // console.log(contentHtml);
-                    console.log('url : ',aPostedURL[aPostedURL.indexOf(url)],'id : ',aPostID[aPostedURL.indexOf(url)]);
-                    wp.editPost(aPostID[aPostedURL.indexOf(url)],{title:sTitle,status:'publish',content:contentHtml,author:1},function(){
-                        console.log(arguments);
-                    });
-
-                });
-            };
-        });
+        //         });
+        //     };
+        // });
 
 
 
@@ -168,6 +169,7 @@ function getVideo(url){
                     // aPostID.push(arguments['1']);
                     // console.log('url : ',aPostedURL[aPostedURL.indexOf(url)],'id : ',aPostID[aPostedURL.indexOf(url)]);
                     console.log(arguments);
+                    writeLog();
                 });
 
             });
@@ -323,14 +325,14 @@ function writeLog(){
 setTimeout(function(){
     test2(2);
     test2(1);
-},3*1000);
+},1000);
 
 //1,2페이지 10분만다 파싱
 // setInterval(function(){test2(1);test2(2);},10*60*1000);
 
 
 //로그파일 5분 후 저장
-setInterval(function(){writeLog();},5*60*1000);
+// setInterval(function(){writeLog();},5*60*1000);
 
 // test(20);
 // getVideo('http://tvko.us/tudou-%EC%8A%A4%ED%83%80%EB%89%B4%EC%8A%A4-140520/');
