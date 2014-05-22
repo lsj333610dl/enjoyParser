@@ -12,7 +12,7 @@
 while [ 1 ]
 do
 	forever start ./bin/www
-	forever list
+	#forever list
 	sleep 900
 	forever stop 0
 done
