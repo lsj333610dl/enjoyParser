@@ -1,0 +1,375 @@
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] KugH [90m/usr/bin/nodejs[39m [90mbin/www[39m 1189    1192 [35m/home/ubuntu/.forever/KugH.log[39m [33m0:0:15:0.94[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] VWrw [90m/usr/bin/nodejs[39m [90mbin/www[39m 1303    1306 [35m/home/ubuntu/.forever/VWrw.log[39m [33m0:0:15:0.116[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 3zz- [90m/usr/bin/nodejs[39m [90mbin/www[39m 1336    1339 [35m/home/ubuntu/.forever/3zz-.log[39m [33m0:0:15:0.141[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] H-_t [90m/usr/bin/nodejs[39m [90mbin/www[39m 1361    1364 [35m/home/ubuntu/.forever/H-_t.log[39m [33m0:0:15:0.91[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 75Wp [90m/usr/bin/nodejs[39m [90mbin/www[39m 1396    1399 [35m/home/ubuntu/.forever/75Wp.log[39m [33m0:0:15:0.126[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] dVal [90m/usr/bin/nodejs[39m [90mbin/www[39m 1418    1421 [35m/home/ubuntu/.forever/dVal.log[39m [33m0:0:15:0.124[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] avwC [90m/usr/bin/nodejs[39m [90mbin/www[39m 1451    1454 [35m/home/ubuntu/.forever/avwC.log[39m [33m0:0:15:0.98[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] elav [90m/usr/bin/nodejs[39m [90mbin/www[39m 1476    1479 [35m/home/ubuntu/.forever/elav.log[39m [33m0:0:15:0.117[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] f31Q [90m/usr/bin/nodejs[39m [90mbin/www[39m 1509    1512 [35m/home/ubuntu/.forever/f31Q.log[39m [33m0:0:15:0.103[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] Bf2h [90m/usr/bin/nodejs[39m [90mbin/www[39m 1532    1535 [35m/home/ubuntu/.forever/Bf2h.log[39m [33m0:0:15:0.115[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] ekCr [90m/usr/bin/nodejs[39m [90mbin/www[39m 1565    1568 [35m/home/ubuntu/.forever/ekCr.log[39m [33m0:0:15:0.105[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] FRSv [90m/usr/bin/nodejs[39m [90mbin/www[39m 1603    1606 [35m/home/ubuntu/.forever/FRSv.log[39m [33m0:0:15:0.114[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 4Bb5 [90m/usr/bin/nodejs[39m [90mbin/www[39m 1625    1628 [35m/home/ubuntu/.forever/4Bb5.log[39m [33m0:0:15:0.105[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] j8Jc [90m/usr/bin/nodejs[39m [90mbin/www[39m 1658    1661 [35m/home/ubuntu/.forever/j8Jc.log[39m [33m0:0:15:0.103[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] VdUM [90m/usr/bin/nodejs[39m [90mbin/www[39m 1680    1683 [35m/home/ubuntu/.forever/VdUM.log[39m [33m0:0:15:0.101[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] FUH- [90m/usr/bin/nodejs[39m [90mbin/www[39m 1716    1719 [35m/home/ubuntu/.forever/FUH-.log[39m [33m0:0:15:0.127[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] j9UH [90m/usr/bin/nodejs[39m [90mbin/www[39m 1738    1741 [35m/home/ubuntu/.forever/j9UH.log[39m [33m0:0:15:0.99[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] mv6l [90m/usr/bin/nodejs[39m [90mbin/www[39m 1773    1776 [35m/home/ubuntu/.forever/mv6l.log[39m [33m0:0:15:0.124[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] wEJU [90m/usr/bin/nodejs[39m [90mbin/www[39m 1806    1809 [35m/home/ubuntu/.forever/wEJU.log[39m [33m0:0:15:0.134[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] gGvx [90m/usr/bin/nodejs[39m [90mbin/www[39m 1831    1834 [35m/home/ubuntu/.forever/gGvx.log[39m [33m0:0:15:0.147[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] lcH4 [90m/usr/bin/nodejs[39m [90mbin/www[39m 1864    1867 [35m/home/ubuntu/.forever/lcH4.log[39m [33m0:0:15:0.108[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 6oCr [90m/usr/bin/nodejs[39m [90mbin/www[39m 1886    1889 [35m/home/ubuntu/.forever/6oCr.log[39m [33m0:0:15:0.112[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] n4D3 [90m/usr/bin/nodejs[39m [90mbin/www[39m 1919    1922 [35m/home/ubuntu/.forever/n4D3.log[39m [33m0:0:15:0.138[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] lShb [90m/usr/bin/nodejs[39m [90mbin/www[39m 1944    1947 [35m/home/ubuntu/.forever/lShb.log[39m [33m0:0:15:0.83[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] T1VY [90m/usr/bin/nodejs[39m [90mbin/www[39m 1977    1980 [35m/home/ubuntu/.forever/T1VY.log[39m [33m0:0:15:0.121[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] j3_i [90m/usr/bin/nodejs[39m [90mbin/www[39m 2001    2004 [35m/home/ubuntu/.forever/j3_i.log[39m [33m0:0:15:0.136[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] 1T_m [90m/usr/bin/nodejs[39m [90mbin/www[39m 2034    2037 [35m/home/ubuntu/.forever/1T_m.log[39m [33m0:0:15:0.95[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] mutW [90m/usr/bin/nodejs[39m [90mbin/www[39m 2059    2062 [35m/home/ubuntu/.forever/mutW.log[39m [33m0:0:15:0.124[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] bxTx [90m/usr/bin/nodejs[39m [90mbin/www[39m 2092    2095 [35m/home/ubuntu/.forever/bxTx.log[39m [33m0:0:15:0.104[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] kH5Z [90m/usr/bin/nodejs[39m [90mbin/www[39m 2125    2128 [35m/home/ubuntu/.forever/kH5Z.log[39m [33m0:0:15:0.110[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] H-yh [90m/usr/bin/nodejs[39m [90mbin/www[39m 2149    2152 [35m/home/ubuntu/.forever/H-yh.log[39m [33m0:0:15:0.104[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 3z7y [90m/usr/bin/nodejs[39m [90mbin/www[39m 2185    2188 [35m/home/ubuntu/.forever/3z7y.log[39m [33m0:0:15:0.104[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 6sKj [90m/usr/bin/nodejs[39m [90mbin/www[39m 2207    2210 [35m/home/ubuntu/.forever/6sKj.log[39m [33m0:0:15:0.113[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] T8Gg [90m/usr/bin/nodejs[39m [90mbin/www[39m 2242    2245 [35m/home/ubuntu/.forever/T8Gg.log[39m [33m0:0:15:0.102[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] ir0N [90m/usr/bin/nodejs[39m [90mbin/www[39m 2275    2278 [35m/home/ubuntu/.forever/ir0N.log[39m [33m0:0:15:0.147[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] n4AG [90m/usr/bin/nodejs[39m [90mbin/www[39m 2300    2303 [35m/home/ubuntu/.forever/n4AG.log[39m [33m0:0:15:0.83[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] Cuj1 [90m/usr/bin/nodejs[39m [90mbin/www[39m 2333    2336 [35m/home/ubuntu/.forever/Cuj1.log[39m [33m0:0:15:0.120[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] j6oC [90m/usr/bin/nodejs[39m [90mbin/www[39m 2357    2360 [35m/home/ubuntu/.forever/j6oC.log[39m [33m0:0:15:0.129[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] r0D8 [90m/usr/bin/nodejs[39m [90mbin/www[39m 2390    2393 [35m/home/ubuntu/.forever/r0D8.log[39m [33m0:0:15:0.139[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] bwIO [90m/usr/bin/nodejs[39m [90mbin/www[39m 2415    2418 [35m/home/ubuntu/.forever/bwIO.log[39m [33m0:0:15:0.124[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] EAD6 [90m/usr/bin/nodejs[39m [90mbin/www[39m 2449    2452 [35m/home/ubuntu/.forever/EAD6.log[39m [33m0:0:15:0.128[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] aj_t [90m/usr/bin/nodejs[39m [90mbin/www[39m 2471    2474 [35m/home/ubuntu/.forever/aj_t.log[39m [33m0:0:15:0.128[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] f_mh [90m/usr/bin/nodejs[39m [90mbin/www[39m 2508    2511 [35m/home/ubuntu/.forever/f_mh.log[39m [33m0:0:15:0.116[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m      
+[0] amv0 [90m/usr/bin/nodejs[39m [90mbin/www[39m 2535    2538 [35m/home/ubuntu/.forever/amv0.log[39m [33m0:0:15:0.95[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] ZT5f [90m/usr/bin/nodejs[39m [90mbin/www[39m 2568    2571 [35m/home/ubuntu/.forever/ZT5f.log[39m [33m0:0:15:0.107[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] esAA [90m/usr/bin/nodejs[39m [90mbin/www[39m 2590    2593 [35m/home/ubuntu/.forever/esAA.log[39m [33m0:0:15:0.101[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] VddR [90m/usr/bin/nodejs[39m [90mbin/www[39m 2623    2626 [35m/home/ubuntu/.forever/VddR.log[39m [33m0:0:15:0.134[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] 5Wle [90m/usr/bin/nodejs[39m [90mbin/www[39m 2659    2662 [35m/home/ubuntu/.forever/5Wle.log[39m [33m0:0:15:0.127[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] Hz2n [90m/usr/bin/nodejs[39m [90mbin/www[39m 2681    2684 [35m/home/ubuntu/.forever/Hz2n.log[39m [33m0:0:15:0.136[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] WoEG [90m/usr/bin/nodejs[39m [90mbin/www[39m 2714    2717 [35m/home/ubuntu/.forever/WoEG.log[39m [33m0:0:15:0.134[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] _tRU [90m/usr/bin/nodejs[39m [90mbin/www[39m 2736    2739 [35m/home/ubuntu/.forever/_tRU.log[39m [33m0:0:15:0.127[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] L9VX [90m/usr/bin/nodejs[39m [90mbin/www[39m 2772    2775 [35m/home/ubuntu/.forever/L9VX.log[39m [33m0:0:15:0.107[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] Or9e [90m/usr/bin/nodejs[39m [90mbin/www[39m 2805    2808 [35m/home/ubuntu/.forever/Or9e.log[39m [33m0:0:15:0.107[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] hdTx [90m/usr/bin/nodejs[39m [90mbin/www[39m 2827    2830 [35m/home/ubuntu/.forever/hdTx.log[39m [33m0:0:15:0.101[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] _lb6 [90m/usr/bin/nodejs[39m [90mbin/www[39m 2860    2863 [35m/home/ubuntu/.forever/_lb6.log[39m [33m0:0:15:0.124[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] UDyg [90m/usr/bin/nodejs[39m [90mbin/www[39m 2885    2888 [35m/home/ubuntu/.forever/UDyg.log[39m [33m0:0:15:0.105[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] AP8O [90m/usr/bin/nodejs[39m [90mbin/www[39m 2918    2921 [35m/home/ubuntu/.forever/AP8O.log[39m [33m0:0:15:0.132[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] cBWq [90m/usr/bin/nodejs[39m [90mbin/www[39m 2951    2954 [35m/home/ubuntu/.forever/cBWq.log[39m [33m0:0:15:0.151[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] tfz6 [90m/usr/bin/nodejs[39m [90mbin/www[39m 2973    2976 [35m/home/ubuntu/.forever/tfz6.log[39m [33m0:0:15:0.109[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] lX8I [90m/usr/bin/nodejs[39m [90mbin/www[39m 3009    3012 [35m/home/ubuntu/.forever/lX8I.log[39m [33m0:0:15:0.118[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
+[32minfo[39m:    Forever stopped process:
+[90mdata[39m:    [37m   [39m [37muid[39m  [90mcommand[39m         [90mscript[39m  [37mforever[39m [37mpid[39m  [35mlogfile[39m                        [33muptime[39m       
+[0] KsMH [90m/usr/bin/nodejs[39m [90mbin/www[39m 3031    3034 [35m/home/ubuntu/.forever/KsMH.log[39m [33m0:0:15:0.255[39m 
+[33mwarn[39m:    --minUptime not set. Defaulting to: 1000ms
+[33mwarn[39m:    --spinSleepTime not set. Your script will exit if it does not stay up for at least 1000ms
+[32minfo[39m:    Forever processing file: [90m./bin/www[39m
