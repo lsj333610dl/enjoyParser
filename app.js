@@ -103,7 +103,7 @@ function getVideo2(url){
 
 function test2(page){
     console.log(page,'페이지 파싱');
-    var tvkoUrl = 'http://tvko.us/page/'+page;  
+    var tvkoUrl = 'http://eeztv.com/category/drama/page/'+page;  
     
     jsdom.env({
         url:tvkoUrl,
