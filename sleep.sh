@@ -13,6 +13,6 @@ while [ 1 ]
 do
 	forever start ./bin/www
 	#forever list
-	sleep 900
+	sleep 1800
 	forever stop 0
 done
