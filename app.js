@@ -103,10 +103,10 @@ function getVideo2(url){
 
 function test2(page){
     console.log(page,'페이지 파싱');
-    var tvkoUrl = 'http://eeztv.com/category/drama/page/'+page;  
-    
+    var tvkoUrlDrama = 'http://eeztv.com/category/drama/page/'+page;  
+
     jsdom.env({
-        url:tvkoUrl,
+        url:tvkoUrlDrama,
         src:[jquery],
         done:function (errors, window) {
             var $ = window.$;
@@ -119,6 +119,25 @@ function test2(page){
             });
         }
     });
+    
+    var tvkoUrlShow = 'http://eeztv.com/category/show/page/'+page;  
+
+    jsdom.env({
+        url:tvkoUrlShow,
+        src:[jquery],
+        done:function (errors, window) {
+            var $ = window.$;
+            var contentHtml = $('div.col-left').html();
+
+            $('div.col-left').find('div.inside > a').each(function(){
+                var url = $(this).attr('href');
+                getVideo2(url);
+                // console.log('제목 : ',$(this).attr('title'),'\n주소 : ',$(this).attr('href'));
+            });
+        }
+    });
+    
+    
 }
 
 
