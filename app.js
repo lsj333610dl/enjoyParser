@@ -114,7 +114,7 @@ function getVideo2(url){
 
 function test2(page){
     console.log(page,'페이지 파싱');
-    var tvkoUrlDrama = 'http://eeztv.com/category/drama/page/'+page;  
+    var tvkoUrlDrama = 'http://julytv.com/category/drama/page/'+page;  
 
     jsdom.env({
         url:tvkoUrlDrama,
@@ -131,7 +131,7 @@ function test2(page){
         }
     });
     
-    var tvkoUrlShow = 'http://eeztv.com/category/show/page/'+page;  
+    var tvkoUrlShow = 'http://julytv.com/category/show/page/'+page;  
 
     jsdom.env({
         url:tvkoUrlShow,
