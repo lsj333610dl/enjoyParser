@@ -51,36 +51,13 @@ app.use(bodyParser.urlencoded());
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
-app.use('/shopagent', function(req, res) {
-    request('http://shopagent.co.kr/tour/board.php?bo_table=drama&wr_id=17784', function (error, response, body) {
-        if (!error && response.statusCode == 200) {
-
-            var window = jsdom.jsdom(body).parentWindow;
-
-            jsdom.jQueryify(window, "http://code.jquery.com/jquery.js",function(){
-                var contentHtml = window.$('table:nth-child(7)').find('p:first').html();
-                console.log(contentHtml);
-
-                res.render('parser',{contents:contentHtml});
-
-            });
-        }
-    });
-});
-
-
-
-
 
 function getVideo2(url){
 
     if (oPoosted[url]) {
-        console.log('중투더복');
+        console.log('중복자료');
         return;
     };
-
 
     jsdom.env({
         url: url,
@@ -101,12 +78,32 @@ function getVideo2(url){
 };
 
 
-function test2(page){
+function parseDrama(page){
     console.log(page,'페이지 파싱');
-    var tvkoUrlDrama = 'http://julytv.com/category/drama/page/'+page;  
+    var dramaUrl = 'http://julytv.com/category/drama/page/'+page;  
 
     jsdom.env({
-        url:tvkoUrlDrama,
+        url:dramaUrl,
+        src:[jquery],
+        done:function (errors, window) {
+            var $ = window.$;
+            var contentHtml = $('div.col-left').html();
+
+            $('div.col-left').find('div.inside > a').each(function(){
+                var url = $(this).attr('href');
+                getVideo2(url);
+                // console.log('제목 : ',$(this).attr('title'),'\n주소 : ',$(this).attr('href'));
+            });
+        }
+    });    
+}
+
+function parseShow(page){
+
+    var showUrl = 'http://julytv.com/category/show/page/'+page;  
+
+    jsdom.env({
+        url:showUrl,
         src:[jquery],
         done:function (errors, window) {
             var $ = window.$;
@@ -119,25 +116,6 @@ function test2(page){
             });
         }
     });
-    
-    var tvkoUrlShow = 'http://julytv.com/category/show/page/'+page;  
-
-    jsdom.env({
-        url:tvkoUrlShow,
-        src:[jquery],
-        done:function (errors, window) {
-            var $ = window.$;
-            var contentHtml = $('div.col-left').html();
-
-            $('div.col-left').find('div.inside > a').each(function(){
-                var url = $(this).attr('href');
-                getVideo2(url);
-                // console.log('제목 : ',$(this).attr('title'),'\n주소 : ',$(this).attr('href'));
-            });
-        }
-    });
-    
-    
 }
 
 
@@ -149,22 +127,27 @@ function writeLog(){
     });
 }
 
-setTimeout(function(){
-    test2(2);
-    test2(1);
-},1000);
+
+function doParse(parsePage){
+    setTimeout(function(){
+        parseDrama(parsePage);
+        parseShow(parsePage);
+    },3*1000);
+}
+
+//처음 실행시 1~3페이지 파싱
+doParse(1);
+doParse(2);
+doParse(3);
+
+//15분마다 반복
+setInterval(function(){
+    
+    doParse(1);
+    
+},15*60*1000);
 
 
-
-
-
-app.use('/writeLog',function(req,res){
-    var filedata = JSON.stringify(oPoosted);
-    fs.writeFile('./posted.enjoy', filedata, function(err) {
-        if(err) throw err;
-        console.log('Log File write completed');
-    });
-});
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
