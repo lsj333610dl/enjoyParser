@@ -32,6 +32,8 @@ fs.readFile('./posted.enjoy', 'utf8', function(err, data) {
     if (!err) {
         oPoosted = JSON.parse(data);
         console.log("로그 로드완료.");
+        //처음 실행시 1페이지 파싱
+        doParse(1);
     };
 });
 
@@ -55,7 +57,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 function getVideo2(url){
 
     if (oPoosted[url]) {
-        console.log('중복자료');
+//        console.log('중복자료');
         return;
     };
 
@@ -69,7 +71,7 @@ function getVideo2(url){
 
             wp.newPost({title:sTitle,status:'publish',content:contentHtml,author:1},function(){
                 oPoosted[url] = arguments['1'];
-                console.log(arguments);
+//                console.log(arguments);
                 writeLog();
             });
         }
@@ -90,9 +92,9 @@ function parseDrama(page){
             var contentHtml = $('div.col-left').html();
 
             $('div.col-left').find('div.inside > a').each(function(){
-                var url = $(this).attr('href');
-                getVideo2(url);
-                // console.log('제목 : ',$(this).attr('title'),'\n주소 : ',$(this).attr('href'));
+                var postUrl = $(this).attr('href');
+
+                setTimeout(getVideo2(postUrl),5*1000);
             });
         }
     });    
@@ -110,9 +112,10 @@ function parseShow(page){
             var contentHtml = $('div.col-left').html();
 
             $('div.col-left').find('div.inside > a').each(function(){
-                var url = $(this).attr('href');
-                getVideo2(url);
-                // console.log('제목 : ',$(this).attr('title'),'\n주소 : ',$(this).attr('href'));
+                var postUrl = $(this).attr('href');
+                
+                setTimeout(getVideo2(postUrl),5*1000);
+                
             });
         }
     });
@@ -123,7 +126,7 @@ function writeLog(){
     var filedata = JSON.stringify(oPoosted);
     fs.writeFile('./posted.enjoy', filedata, function(err) {
         if(err) throw err;
-        console.log('Log File write completed');
+//        console.log('Log File write completed');
     });
 }
 
@@ -135,17 +138,23 @@ function doParse(parsePage){
     },3*1000);
 }
 
-//처음 실행시 1~3페이지 파싱
-doParse(1);
-doParse(2);
-doParse(3);
 
-//15분마다 반복
+//30분마다 반복
 setInterval(function(){
+    console.log('반복 파싱시작');
     
-    doParse(1);
+    fs.readFile('./posted.enjoy', 'utf8', function(err, data) {
+
+        if (!err) {
+            oPoosted = JSON.parse(data);
+            console.log("로그 로드완료.");
+
+            doParse(1);
+        };
+    });
     
-},15*60*1000);
+    
+},30*60*1000);
 
 
 
