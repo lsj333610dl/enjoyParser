@@ -70,19 +70,12 @@ function getVideo2(url) {
 
         if (err)
             throw err;
-        else if (res) {
+        else if (res.length) {
             console.log('디비에 있다');
         } else {
             console.log('디비중복아님');
             var video = new Video({
                 url: url
-            });
-            video.save(function (err) {
-                if (err) {
-                    console.log(err);
-                    throw err;
-                }
-                console.log('db저장 성공');
             });
 
 
@@ -102,7 +95,15 @@ function getVideo2(url) {
                     }, function () {
                         //                        oPoosted[url] = arguments['1'];
                         console.log(arguments);
-                        //                        writeLog();
+
+                        video.save(function (err) {
+                            if (err) {
+                                console.log(err);
+                                throw err;
+                            }
+                            console.log('db저장 성공');
+                        });
+                        
                     });
                 }
             });
@@ -125,7 +126,7 @@ function parseDrama(page) {
             $('div.col-left').find('div.inside > a').each(function () {
                 var postUrl = $(this).attr('href');
 
-                setTimeout(getVideo2(postUrl), 5 * 1000);
+                setTimeout(getVideo2(postUrl), 10 * 1000);
             });
         }
     });
@@ -145,7 +146,7 @@ function parseShow(page) {
             $('div.col-left').find('div.inside > a').each(function () {
                 var postUrl = $(this).attr('href');
 
-                setTimeout(getVideo2(postUrl), 5 * 1000);
+                setTimeout(getVideo2(postUrl), 10 * 1000);
 
             });
         }
@@ -162,11 +163,11 @@ function doParse(parsePage) {
 }
 
 
-//30분마다 반복
+//20분마다 반복
 setInterval(function () {
     console.log('반복 파싱시작');
     doParse(1);
-}, 30 * 60 * 1000);
+}, 20 * 60 * 1000);
 
 
 
