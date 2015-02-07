@@ -35,9 +35,8 @@ var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function callback() {
     console.log("db오픈 완료.");
-    //처음 실행시 1~2페이지 파싱
+    //처음 실행시 1페이지 파싱
     doParse(1);
-    doParse(2);
 });
 
 
@@ -126,7 +125,7 @@ function parseDrama(page) {
             $('div.col-left').find('div.inside > a').each(function () {
                 var postUrl = $(this).attr('href');
 
-                setTimeout(getVideo2(postUrl), 10 * 1000);
+                getVideo2(postUrl);
             });
         }
     });
@@ -146,7 +145,26 @@ function parseShow(page) {
             $('div.col-left').find('div.inside > a').each(function () {
                 var postUrl = $(this).attr('href');
 
-                setTimeout(getVideo2(postUrl), 10 * 1000);
+                getVideo2(postUrl);
+
+            });
+        }
+    });
+}
+
+function parseLatest(){
+    var mainUrl = 'http://julytv.com';
+
+    jsdom.env({
+        url: mainUrl,
+        src: [jquery],
+        done: function (errors, window) {
+            var $ = window.$;
+
+            $('ul.four-col').find('div.post-thumb > a').each(function () {
+                var postUrl = $(this).attr('href');
+//                console.log(postUrl);
+                getVideo2(postUrl);
 
             });
         }
@@ -154,20 +172,16 @@ function parseShow(page) {
 }
 
 
-
 function doParse(parsePage) {
-    setTimeout(function () {
-        parseDrama(parsePage);
-        parseShow(parsePage);
-    }, 3 * 1000);
+        parseLatest();
 }
 
 
-//20분마다 반복
+//10분마다 반복
 setInterval(function () {
     console.log('반복 파싱시작');
     doParse(1);
-}, 20 * 60 * 1000);
+}, 10 * 60000);
 
 
 
