@@ -73,7 +73,7 @@ function getVideo2(url) {
         else if (res.length) {
 //            console.log('디비에 있다');
         } else {
-//            console.log('디비중복아님');
+            console.log('디비중복아님');
             var video = new Video({
                 url: url
             });
