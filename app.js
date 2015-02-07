@@ -37,6 +37,7 @@ db.once('open', function callback() {
     console.log("db오픈 완료.");
     //처음 실행시 1페이지 파싱
     doParse(1);
+    doParse(2);
 });
 
 
@@ -177,11 +178,11 @@ function doParse(parsePage) {
 }
 
 
-//10분마다 반복
-setInterval(function () {
-    console.log('반복 파싱시작');
-    doParse(1);
-}, 10 * 60000);
+////10분마다 반복
+//setInterval(function () {
+//    console.log('반복 파싱시작');
+//    doParse(1);
+//}, 10 * 60000);
 
 
 
