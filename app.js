@@ -1,18 +1,5 @@
-var express = require('express');
-var path = require('path');
-var favicon = require('static-favicon');
-var logger = require('morgan');
-var cookieParser = require('cookie-parser');
-var bodyParser = require('body-parser');
-
-
-
-var routes = require('./routes/index');
-var users = require('./routes/users');
-
 var request = require('request');
 var jsdom = require('jsdom');
-var cheerio = require('cheerio');
 var url = require('url');
 
 var wordpress = require('wordpress');
@@ -37,7 +24,7 @@ db.once('open', function callback() {
     console.log("db오픈 완료.");
     //처음 실행시 1페이지 파싱
     doParse(1);
-    doParse(2);
+//    doParse(2);
 });
 
 
@@ -49,19 +36,6 @@ var Video = mongoose.model('videoModel', VideoSchema);
 
 
 
-var app = express();
-
-// view engine setup
-app.set('views', path.join(__dirname, 'views'));
-app.set('view engine', 'jade');
-
-app.use(favicon());
-app.use(logger('dev'));
-app.use(bodyParser.json());
-app.use(bodyParser.urlencoded());
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
-
 
 function getVideo2(url) {
     Video.find({
@@ -71,7 +45,7 @@ function getVideo2(url) {
         if (err)
             throw err;
         else if (res.length) {
-//            console.log('디비에 있다');
+            //            console.log('디비에 있다');
         } else {
             console.log('디비중복아님');
             var video = new Video({
@@ -103,7 +77,7 @@ function getVideo2(url) {
                             }
                             console.log('db저장 성공');
                         });
-                        
+
                     });
                 }
             });
@@ -153,7 +127,7 @@ function parseShow(page) {
     });
 }
 
-function parseLatest(){
+function parseLatest() {
     var mainUrl = 'http://julytv.com';
 
     jsdom.env({
@@ -164,7 +138,7 @@ function parseLatest(){
 
             $('ul.four-col').find('div.post-thumb > a').each(function () {
                 var postUrl = $(this).attr('href');
-//                console.log(postUrl);
+                //                console.log(postUrl);
                 getVideo2(postUrl);
 
             });
@@ -174,7 +148,9 @@ function parseLatest(){
 
 
 function doParse(parsePage) {
-        parseLatest();
+    parseLatest();
+    //    parseDrama(parsePage);
+    //    parseShow(parsePage);
 }
 
 
@@ -183,40 +159,3 @@ function doParse(parsePage) {
 //    console.log('반복 파싱시작');
 //    doParse(1);
 //}, 10 * 60000);
-
-
-
-
-/// catch 404 and forward to error handler
-app.use(function (req, res, next) {
-    var err = new Error('Not Found');
-    err.status = 404;
-    next(err);
-});
-
-/// error handlers
-
-// development error handler
-// will print stacktrace
-if (app.get('env') === 'development') {
-    app.use(function (err, req, res, next) {
-        res.status(err.status || 500);
-        res.render('error', {
-            message: err.message,
-            error: err
-        });
-    });
-}
-
-// production error handler
-// no stacktraces leaked to user
-app.use(function (err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {}
-    });
-});
-
-
-module.exports = app;
