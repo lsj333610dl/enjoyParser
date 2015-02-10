@@ -136,11 +136,10 @@ function parseLatest() {
         done: function (errors, window) {
             var $ = window.$;
 
-            $('ul.four-col').find('div.post-thumb > a').each(function () {
+            $('div.col-left ul.four-col').find('div.post-thumb > a').each(function () {
                 var postUrl = $(this).attr('href');
                 //                console.log(postUrl);
                 getVideo2(postUrl);
-
             });
         }
     });
