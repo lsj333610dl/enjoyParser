@@ -24,7 +24,7 @@ db.once('open', function callback() {
     console.log("db오픈 완료.");
     //처음 실행시 1페이지 파싱
     doParse(1);
-//    doParse(2);
+    //    doParse(2);
 });
 
 
@@ -147,9 +147,9 @@ function parseLatest() {
 
 
 function doParse(parsePage) {
-    parseLatest();
-    //    parseDrama(parsePage);
-    //    parseShow(parsePage);
+//    parseLatest();
+    parseDrama(parsePage);
+    parseShow(parsePage);
 }
 
 
