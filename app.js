@@ -4,9 +4,9 @@ var url = require('url');
 
 var wordpress = require('wordpress');
 var wp = wordpress.createClient({
-    "url": 'http://enjoylimit.tv',
-    "username": 'enjoylimit',
-    "password": '963852dl'
+    "url": '----',
+    "username": '---',
+    "password": '---'
 });
 
 var fs = require("fs");
